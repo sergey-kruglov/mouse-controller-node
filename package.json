@@ -1,0 +1,24 @@
+{
+  "name": "mouse-controller-node",
+  "version": "1.0.0",
+  "description": "Remote mouse controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergey-kruglov/mouse-controller-node.git"
+  },
+  "author": "Sergey Kruglov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergey-kruglov/mouse-controller-node/issues"
+  },
+  "homepage": "https://github.com/sergey-kruglov/mouse-controller-node#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "robotjs": "^0.6.0",
+    "socket.io": "^4.7.5"
+  }
+}
